@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet – Portfolio Noah Bucheton</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="back-btn">Retour au portfolio</a>
+        </div>
+    </header>
+
+    <section class="project-detail">
+        <div class="container">
+            <h1 class="project-title">Bouteille COCA</h1>
+            <img src="./img/cola&.png" alt="Image du projet" class="project-image">
+
+            <div class="project-content">
+                <p><strong>Description :</strong> Réalisation d'un bouteille de coca en 3D sur blender</p>
+
+                <p><strong>Objectifs :</strong>Modéliser une bouteille en 3D avec Blender afin d’apprendre les techniques de modélisation de précision, tout en respectant les proportions et les détails techniques d’un élément avec des reliefs.</p>
+
+                <p><strong>Technologies utilisées :</strong></p>
+                <ul class="tech-list">
+                    <li>Blender 3D</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-gallery">
+        <div class="container">
+            <h2>Galerie du Projet</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./img/cocarendu.png" alt="Capture d'écran 1" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/cola&.png" alt="Capture d'écran 2" onclick="openModal(this)">
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/cola.png" alt="Capture d'écran 3" onclick="openModal(this)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

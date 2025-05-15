@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Bucheton Noah</title>
+    <link rel="stylesheet" href="./css/style-main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img class="logo" src="./img/logo.png" alt="My logo">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#home" class="lang en active">Home</a>
+                            <a href="#home" class="lang fr">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="lang en active">About</a>
+                            <a href="#about" class="lang fr">À Propos</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="lang en active">Skills</a>
+                            <a href="#skills" class="lang fr">Compétences</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="lang en active">Projects</a>
+                            <a href="#portfolio" class="lang fr">Projets</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="lang en active">Contact</a>
+                            <a href="#contact" class="lang fr">Contact</a>
+                        </li>
+                        <li class="language-selector">
+                            <button class="language-btn" id="languageBtn">
+                                <span id="currentLanguage">EN</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="language-dropdown" id="languageDropdown">
+                                <div class="language-option" data-lang="en">English</div>
+                                <div class="language-option" data-lang="fr">Français</div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    <span class="lang en active">Hi, I'm </span>
+                    <span class="lang fr">Bonjour, je suis </span>
+                    <span style="color: #0066cc;">Bucheton Noah</span>
+                </h1>
+                <p class="lang en active">Web Developer & Designer creating beautiful digital experiences</p>
+                <p class="lang fr">Développeur Web & Designer créant de belles expériences digitales</p>
+                <a href="#portfolio" class="btn">
+                    <span class="lang en active">View My Work</span>
+                    <span class="lang fr">Voir Mon Travail</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang en active">About Me</span>
+                <span class="lang fr">À Propos de Moi</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="lang en active">
+                        <p>Welcome to my portfolio! A web developer in my second year at La Manu, I'm passionate about creating intuitive and aesthetically pleasing digital experiences. I combine my front-end and design skills to create modern, accessible and high-performance interfaces.</p>
+                        <p>In the course of my projects, I've developed e-commerce sites, storefronts and interactive applications, adapting to user needs and technical requirements. Always in search of innovation, I hone my skills by exploring new technologies and experimenting with creative concepts.</p>
+                        <p>Outside development, I'm interested in graphic design, pixel art and video games, passions that enrich my vision of design and user experience.</p>
+                    </div>
+                    <div class="lang fr">
+                        <p>Bienvenue sur mon portfolio ! Développeur web en deuxième année à La Manu, je suis passionné par la création d'expériences digitales intuitives et esthétiques. Je combine mes compétences en front-end et en design pour créer des interfaces modernes, accessibles et performantes.</p>
+                        <p>Au cours de mes projets, j'ai développé des sites e-commerce, des vitrines et des applications interactives, en m'adaptant aux besoins des utilisateurs et aux exigences techniques. Toujours en quête d'innovation, j'affine mes compétences en explorant de nouvelles technologies et en expérimentant des concepts créatifs.</p>
+                        <p>En dehors du développement, je m'intéresse au design graphique, au pixel art et aux jeux vidéo, des passions qui enrichissent ma vision du design et de l'expérience utilisateur.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img class="profile" src="./img/IMG_1536.png" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang en active">My Skills</span>
+                <span class="lang fr">Mes Compétences</span>
+            </h2>
+            <div class="skills-content">
+                <div class="skill-card">
+                    <h3>
+                        <span class="lang en active">Front-End Development</span>
+                        <span class="lang fr">Développement Front-End</span>
+                    </h3>
+                    <p class="lang en active">Proficient in HTML5, CSS3, JavaScript, and modern frameworks like React. Creating responsive designs and interactive user interfaces.</p>
+                    <p class="lang fr">Maîtrise de HTML5, CSS3, JavaScript et des frameworks modernes comme React. Création de designs responsives et d'interfaces utilisateur interactives.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>
+                        <span class="lang en active">Back-End Development</span>
+                        <span class="lang fr">Développement Back-End</span>
+                    </h3>
+                    <p class="lang en active">Experience with Node.js, and database management systems. Building robust server-side applications and APIs.</p>
+                    <p class="lang fr">Expérience avec Node.js et les systèmes de gestion de bases de données. Construction d'applications robustes côté serveur et d'APIs.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>
+                        <span class="lang en active">UI/UX Design</span>
+                        <span class="lang fr">Design UI/UX</span>
+                    </h3>
+                    <p class="lang en active">Strong understanding of design principles, user experience, and creating intuitive interfaces that enhance user engagement.</p>
+                    <p class="lang fr">Forte compréhension des principes de design, de l'expérience utilisateur et de la création d'interfaces intuitives qui améliorent l'engagement des utilisateurs.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>
+                        <span class="lang en active">Responsive Design</span>
+                        <span class="lang fr">Design Responsive</span>
+                    </h3>
+                    <p class="lang en active">Creating websites that work seamlessly across all devices and screen sizes, ensuring optimal user experience.</p>
+                    <p class="lang fr">Création de sites web qui fonctionnent parfaitement sur tous les appareils et tailles d'écran, garantissant une expérience utilisateur optimale.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>
+                        <span class="lang en active">Performance Optimization</span>
+                        <span class="lang fr">Optimisation de Performance</span>
+                    </h3>
+                    <p class="lang en active">Improving website speed and performance through code optimization, asset management, and best practices.</p>
+                    <p class="lang fr">Amélioration de la vitesse et des performances des sites web grâce à l'optimisation du code, la gestion des ressources et les meilleures pratiques.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>
+                        <span class="lang en active">Version Control</span>
+                        <span class="lang fr">Gestion de Version</span>
+                    </h3>
+                    <p class="lang en active">Proficient with Git and GitHub for collaborative development, code management, and project organization.</p>
+                    <p class="lang fr">Maîtrise de Git et GitHub pour le développement collaboratif, la gestion du code et l'organisation des projets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang en active">My Projects</span>
+                <span class="lang fr">Mes Projets</span>
+            </h2>
+            <div class="portfolio-grid">
+                <a href="./shop.html" class="portfolio-item">
+                    <img src="./img/logo vinyls 1.png" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>
+                            <span class="lang en active">Application Vinyls</span>
+                            <span class="lang fr">Application Vinyls</span>
+                        </h3>
+                        <p class="lang en active">A fully responsive Figma store with prototype functionality.</p>
+                        <p class="lang fr">Une boutique entièrement responsive construite avec Figma avec fonctionnalité en prototype</p>
+                    </div>
+                </a>
+                <a href="./video.html" class="portfolio-item">
+                    <img src="./img/plane.png" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>
+                            <span class="lang en active">Animation After Effect</span>
+                            <span class="lang fr">Animation After Effect</span>
+                        </h3>
+                        <p class="lang en active">Logo creation and visual identity, combining design and strategy to create a unique and powerful brand image.</p>
+                        <p class="lang fr">Création de logo et identité visuelle, alliant design et stratégie pour créer une image de marque unique et puissante.</p>
+                    </div>
+                </a>
+                <a href="./blender.html" class="portfolio-item">
+                    <img src="./img/fuser.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>
+                            <span class="lang en active">3D/2D Animation</span>
+                            <span class="lang fr">Animation 3D/2D</span>
+                        </h3>
+                        <p class="lang en active">A 3D model created on Blender, highlighting my work on shapes, textures and lighting to create a realistic, detailed rendering.</p>
+                        <p class="lang fr">Un modèle 3D créé sur Blender, mettant en valeur mon travail sur les formes, les textures et l'éclairage pour créer un rendu réaliste et détaillé.</p>
+                    </div>
+                </a>
+                <a href="./PAO.html" class="portfolio-item">
+                    <img src="./img/rendu.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>
+                            <span class="lang en active">PAO </span>
+                            <span class="lang fr">PAO</span>
+                        </h3>
+                        <p class="lang en active">DTP project showcasing my skills in layout and graphic design..</p>
+                        <p class="lang fr">Projet de PAO mettant en avant mes compétences en mise en page et design graphique.</p>
+                    </div>
+                </a>
+                <a href="./snake.html" class="portfolio-item">
+                    <img src="./img/snake.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>
+                            <span class="lang en active">3D/2D Animation </span>
+                            <span class="lang fr">Animation 3D/2D</span>
+                        </h3>
+                        <p class="lang en active">A 3D model created on Blender, highlighting my work on shapes, textures and lighting to create a realistic, detailed rendering.</p>
+                        <p class="lang fr">Un modèle 3D créé sur Blender, mettant en valeur mon travail sur les formes, les textures et l'éclairage pour créer un rendu réaliste et détaillé.</p>
+                    </div>
+                </a>
+                <a href="./coca.html" class="portfolio-item">
+                    <img src="./img/cocarendu.png" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>
+                            <span class="lang en active">3D </span>
+                            <span class="lang fr">3D</span>
+                        </h3>
+                        <p class="lang en active">A 3D model created on Blender, highlighting my work on shapes, textures and lighting to create a realistic, detailed rendering.</p>
+                        <p class="lang fr">Un modèle 3D créé sur Blender, mettant en valeur mon travail sur les formes, les textures et l'éclairage pour créer un rendu réaliste et détaillé.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang en active">Get In Touch</span>
+                <span class="lang fr">Contactez-Moi</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>
+                        <span class="lang en active">Let's Connect</span>
+                        <span class="lang fr">Restons en Contact</span>
+                    </h3>
+                    <p class="lang en active">Feel free to reach out if you have any questions, project inquiries, or just want to say hello. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <p class="lang fr">N'hésitez pas à me contacter si vous avez des questions, des demandes de projet ou simplement pour dire bonjour. Je suis toujours ouvert à discuter de nouveaux projets, d'idées créatives ou d'opportunités pour faire partie de votre vision.</p>
+                    <ul>
+                        <li><i>📧</i> noah.bucheton27@gmail.com</li>
+                        <li><i>📍</i> Amiens, France</li>
+                    </ul>
+                    <a href="./cv alternance bucheton noah UX UI.pdf" class="btn" download>
+                        <i class="fas fa-download"></i>
+                        <span class="lang en active">Download My CV</span>
+                        <span class="lang fr">Télécharger Mon CV</span>
+                    </a>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control lang en active" placeholder="Your Name" required>
+                            <input type="text" class="form-control lang fr" placeholder="Votre Nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control lang en active" placeholder="Your Email" required>
+                            <input type="email" class="form-control lang fr" placeholder="Votre Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control lang en active" placeholder="Subject">
+                            <input type="text" class="form-control lang fr" placeholder="Sujet">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control lang en active" placeholder="Your Message" required></textarea>
+                            <textarea class="form-control lang fr" placeholder="Votre Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">
+                            <span class="lang en active">Send Message</span>
+                            <span class="lang fr">Envoyer le Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="lang en active">&copy; 2025 Bucheton Noah. All rights reserved.</p>
+            <p class="lang fr">&copy; 2025 Bucheton Noah. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="./js/script-main.js"></script>
+</body>
+</html>
